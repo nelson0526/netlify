@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.htmlpage-row {
+    display: table;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.htmlpage-cell {
+    width: 8%;
+    display: table-cell;
+    height: 75px;
+}
+
+.c8396 {
+    padding: 10px;
+    text-align: center;
+    font-family: "Hiragino Sans GB", sans-serif;
+}
+
+.c10391 {
+    padding: 10px;
+}
+
+.c8732 {
+    text-align: left;
+    float: right;
+    position: fixed;
+    margin: 25px;
+    padding: 10px;
+    border-width: 0px;
+}
+
+.c1118 {
+    width: 966px;
+    height: 14px;
+    en: 1;
+}
+
+.c1185 {
+    height: 120px;
+}
+
+.c1110 {
+    height: 70px;
+    en: 1;
+}
+
+@media (max-width: 768px) {
+    .htmlpage-cell {
+        width: 100%;
+        display: block;
+    }
+}
